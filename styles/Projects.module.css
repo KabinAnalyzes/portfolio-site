@@ -1,0 +1,36 @@
+.header {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.card {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #495057;
+    border-radius: 10px;
+    box-shadow: var(--shadow-elevation-medium);
+
+}
+
+.card a {
+    color: white;
+    text-decoration: underline;
+}
+
+.badge {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    border: black 2px solid;
+    max-width: 35px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+
