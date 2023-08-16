@@ -81,6 +81,7 @@
 }
 
 .description p {
+  display: inline-block;
   position: relative;
   align-items: center;
   top: 100px;
