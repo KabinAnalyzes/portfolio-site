@@ -70,9 +70,11 @@
 
 .description {
   display: inline-block;
-  position: relative;
+  position: absolute;
   align-items: center ;
-  top: -800px;
+  top: 100%;
+  width: 100%;
+  left: 25%;
   margin-right: auto;
   margin-left: auto;
   font-family: 'Roboto', sans-serif;
@@ -86,11 +88,13 @@
 }
 
 .skills {
-  position: relative;
-  top: -500px;
-  left: -220px;
+  position: absolute;
+  top: 1200px;
+  right: 100%;
+  z-index: 2;
   overflow: hidden;
   font-family: "Roboto", sans-serif;
+  padding: 50px;
 }
 
 .skills h2 { 
