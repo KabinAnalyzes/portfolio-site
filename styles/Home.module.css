@@ -90,3 +90,26 @@
   font-size: 50px;
   min-width: 1200px;
 }
+
+.skills {
+  position: relative;
+  top: -500px;
+  left: -220px;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+.skills h2 { 
+  position: relative;
+  display: inline;
+  font-size: 50px;
+  font-size: 50px;
+  bottom: 20px;
+  right: 1px;
+}
+
+.skills h3 {
+  font-size: 20px;
+  overflow: hidden;
+  bottom : 100px;
+}
