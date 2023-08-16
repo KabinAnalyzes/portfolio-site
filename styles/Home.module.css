@@ -73,7 +73,8 @@
   position: relative;
   align-items: center ;
   top: -800px;
-  left: 25%;
+  margin-right: auto;
+  margin-left: auto;
   font-family: 'Roboto', sans-serif;
   min-width: 800px;
 }
