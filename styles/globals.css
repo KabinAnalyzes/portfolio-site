@@ -6,6 +6,14 @@ body {
     background-color: #ADB5BD;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
+
 .not-found {
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -20,6 +28,75 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+
+.wrapper{
+  display: flex;
+  position: relative;
+  top: -800px;
+  left : 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper .static-txt{
+  color: black;
+  font-size: 60px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+.wrapper .dynamic-txts{
+  margin-left: 15px;
+  height: 90px;
+  line-height: 0px;
+  overflow: hidden;
+  position: relative;
+  top: -40px;
+  bottom : 800px;
+  font-family: "Roboto", sans-serif;
+}
+.dynamic-txts li{
+  list-style: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  position: relative;
+  top: 20px;
+  right: 40px;
+  animation: slide 12s steps(4) infinite;
+  position: relative;
+  bottom : 800px;
+}
+@keyframes slide {
+  100%{
+    top: -350px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 0px 0;
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #ADB5BD;
+  border-left: 2px solid black;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
 }
 
 :root {

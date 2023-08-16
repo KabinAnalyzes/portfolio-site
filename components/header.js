@@ -17,6 +17,8 @@ import PersonSearchIcon from '@mui/icons-material/PersonSearch';
 import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
 import styles from '@/styles/Home.module.css'
 import { useRouter } from 'next/router';
+import CircularDeterminate from './progress';
+
 
 
 export default function ButtonAppBar() {
@@ -65,7 +67,7 @@ export default function ButtonAppBar() {
   
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" style={{ background: '#212529'}}>
+      <AppBar position="fixed" style={{ background: '#212529'}}>
         <Toolbar>
         <div>
             {[''].map((anchor) => (
@@ -85,10 +87,12 @@ export default function ButtonAppBar() {
               ))}
         </div>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            {router.pathname === '/' ? 'Home' : router.pathname.replace('/', '')}
+            {router.pathname === '/' ? 'Home' : router.pathname.replace('/', '')} 
           </Typography>
+          <CircularDeterminate />
         </Toolbar>
       </AppBar>
+      
     </Box>
   );
 }

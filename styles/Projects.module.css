@@ -3,6 +3,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     margin-bottom: 20px;
+    margin-top: 75px;
 }
 
 
@@ -18,19 +19,61 @@
 
 }
 
-.card a {
-    color: white;
-    text-decoration: underline;
-}
-
 .badge {
     text-align: center;
+    justify-content: right;
     font-family: 'Roboto', sans-serif;
     display: inline-block;
-    border: black 2px solid;
     max-width: 35px;
     padding: 3px;
     border-radius: 5px;
 }
 
+
+.project_card {
+  position: relative;
+  z-index: 2;
+  min-height: 100vh;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  max-width: 2000px;
+  margin: 50 auto;
+}
+
+.project_card button {
+  color: white;
+  transition: 0.25s;
+}
+
+.project_card button::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 3px;
+    top: 100%;
+    left: 0;
+    transition: transform 0.25s;
+    transform: scalex(0);
+    transform-origin: right;
+    background-color: rgb(190, 190, 249);
+}
+
+.project_card button:hover {
+  color:rgb(190, 190, 249);
+}
+
+.project_card button:hover::after {
+    transform: scalex(1);
+    transform-origin: left;
+}
+
+.project_card a {
+  color: white;
+  transition: 0.5s;
+}
+
+.project_card a:hover {
+    color:rgb(190, 190, 249);
+  }
 
