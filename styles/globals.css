@@ -29,7 +29,9 @@ body::-webkit-scrollbar {
 .wrapper{
   font-family: "Roboto", sans-serif;
   position: relative;
-  top: 30px;
+  top: 110px;
+  right: 29%;
+  
   
 }
 

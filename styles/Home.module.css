@@ -45,6 +45,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   position: absolute;
+  top: 15px;
   right: 87%;
   min-width: 200px;
   max-height: 40px;
@@ -60,7 +61,7 @@
   position: absolute;
   max-width: 2000px;
   top : 1%;
-  right: 67%;
+  right: 68%;
   text-decoration: underline;
   text-decoration-color: rgb(120, 120, 215);
   margin: 0;
@@ -70,8 +71,11 @@
 
 
 .image {
+  position: relative;
   height: 100%;
   overflow: hidden;;
+  right: 30%;
+
 }
 
 .description {
@@ -88,8 +92,10 @@
   font-size: 40px;
   text-align: center;
   position: relative;
+  top: 300px;
   right: 50%;
-  max-width: 20hv;
+  min-width: 20hv;
+  min-height: 200px;
 }
 
 .skills {

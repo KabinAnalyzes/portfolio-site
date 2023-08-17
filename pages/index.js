@@ -33,7 +33,7 @@ export default function Home() {
 
   // Calculate the current color based on the scroll percentage
   const currentColor = startColor.map((startValue, index) =>
-    Math.round(startValue + (endColor[index] - startValue) * (scrollPercentage / 100))
+    Math.round(startValue + (endColor[index] - startValue) * (scrollPercentage / 30))
   );
 
   const textColor = `rgb(${currentColor.join(', ')})`;
