@@ -16,7 +16,7 @@ export default function SimpleBottomNavigation() {
         left: 0,
         width: '100%',
         backgroundColor: '#212529',
-        zIndex: 1000,
+        zIndex: 1,
           }}>
       <BottomNavigation
         showLabels
