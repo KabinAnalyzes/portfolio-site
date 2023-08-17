@@ -29,28 +29,21 @@
 .page_container {
   position: absolute;
   justify-content: center;
-  min-height: 200vh;
-  max-width: vw;
-
+  left: 35%;
 }
 
 
 .title {
-  position: relative;
-  border-radius: 30px;
   max-width: 500px;
   max-height: 500px;
-  top: -200px;
-  left: 400px;
-  grid-column: 2;
 }
 .title p {
-  position: relative;
-  top: 340px;
-  right: 133px;
-  text-align: center;
+  text-align: left;
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
+  position: relative;
+  top: 100px;
+  
 }
 
 .title h1{
@@ -58,10 +51,9 @@
   font-size: 50px;
   text-align: center;
   position: relative;
-  min-height: 100vh;
   max-width: 2000px;
-  top: 325px;
-  right: 63px;
+  top : 65px;
+  right: 115px;
   text-decoration: underline;
   text-decoration-color: rgb(120, 120, 215);
 
@@ -69,25 +61,14 @@
 
 
 .image {
-  position: relative;
   width: 100%;
   height: 100%;
-  top: -800px;
-  left: 500px;
-  border-radius: 10px;
   overflow: hidden;;
 }
 
 .description {
-  position: absolute;
-  align-items: center ;
   top: 100%;
   width: 100%;
-  left: 25%;
-  margin-right: auto;
-  margin-left: auto;
-  min-width: 800px;
-  grid-column: 2;
 }
 
 @media (max-width: 2560px)
@@ -98,6 +79,7 @@
 .description p {
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
+  text-align: center;
 }
 
 .skills {
