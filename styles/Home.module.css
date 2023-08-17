@@ -86,6 +86,20 @@
   min-width: 800px;
 }
 
+@media (max-width: 768px)
+{
+  .description {
+    position: absolute;
+    align-items: center ;
+    top: 100%;
+    width: 100%;
+    left: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 800px;
+  }
+}
+
 .description p {
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
