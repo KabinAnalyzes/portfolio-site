@@ -29,7 +29,10 @@
 .page_container {
   position: absolute;
   justify-content: center;
-  left: 35%;
+  left: 50%;
+  align-items: center;
+  min-height: 500vh;
+  top: 20%;
 }
 
 
@@ -41,33 +44,37 @@
   text-align: left;
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
-  position: relative;
-  top: 100px;
+  position: absolute;
+  right: 87%;
+  min-width: 200px;
+  max-height: 40px;
+  margin: 0;
+
   
 }
 
 .title h1{
   font-family: 'Roboto', sans-serif;
   font-size: 50px;
-  text-align: center;
-  position: relative;
+  text-align: left;
+  position: absolute;
   max-width: 2000px;
-  top : 65px;
-  right: 115px;
+  top : 1%;
+  right: 67%;
   text-decoration: underline;
   text-decoration-color: rgb(120, 120, 215);
+  margin: 0;
+  min-width: 300px;
 
 }
 
 
 .image {
-  width: 100%;
   height: 100%;
   overflow: hidden;;
 }
 
 .description {
-  top: 100%;
   width: 100%;
 }
 
@@ -80,6 +87,9 @@
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
   text-align: center;
+  position: relative;
+  right: 50%;
+  max-width: 20hv;
 }
 
 .skills {
