@@ -190,11 +190,11 @@ const project1 = (
 export default function BasicGrid() {
   return (
     <Box sx={{ flexGrow: 1 }}>
+        
+        <div className={styles.project_card}>
         <div className={styles.header}>
             <h2>  Previous Projects </h2>
         </div>
-        <br></br>
-        <div className={styles.project_card}>
       <Grid 
       container
       spacing={1}

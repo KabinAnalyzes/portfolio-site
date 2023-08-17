@@ -31,14 +31,15 @@
 
 
 .project_card {
-  position: relative;
+  position: absolute;
   z-index: 2;
   min-height: 100vh;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   max-width: 2000px;
-  margin: 50 auto;
+  top:0%;
+  margin-bottom: 0 auto;
 }
 
 .project_card button {
