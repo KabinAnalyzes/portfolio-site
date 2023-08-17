@@ -27,9 +27,11 @@
 }
 
 .page_container {
-  position: absolute;
-  min-height: 100vh;
-  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  min-height: 200vh;
+  max-width: 10vw;
 }
 
 
@@ -40,6 +42,7 @@
   max-height: 500px;
   top: -200px;
   left: 400px;
+  grid-column: 2;
 }
 .title p {
   position: relative;
@@ -84,6 +87,7 @@
   margin-right: auto;
   margin-left: auto;
   min-width: 800px;
+  grid-column: 2;
 }
 
 @media (max-width: 2560px)
@@ -113,6 +117,7 @@
   overflow: hidden;
   font-family: "Roboto", sans-serif;
   padding: 50px;
+  grid-column: 2;
 }
 
 .skills h2 { 
