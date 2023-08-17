@@ -24,11 +24,6 @@ body::-webkit-scrollbar {
   color: #0070f3;
   text-decoration: underline;
 }
-.page-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
 
 
 .wrapper{
@@ -45,6 +40,8 @@ body::-webkit-scrollbar {
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   position: relative;
+  right: 35px;
+  min-width: 150px
 }
 .wrapper .dynamic-txts{
   margin-left: 15px;
@@ -52,8 +49,9 @@ body::-webkit-scrollbar {
   line-height: 0px;
   overflow: hidden;
   position: relative;
-  top: -40px;
+  top: -41px;
   bottom : 800px;
+  right: 50px;
   font-family: "Roboto", sans-serif;
 }
 .dynamic-txts li{
