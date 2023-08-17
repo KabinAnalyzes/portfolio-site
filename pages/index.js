@@ -43,12 +43,15 @@ export default function Home() {
   };
 
   return (
+    <div className={styles.page_container}>
     <div className={styles.title}>
-   <title>Home</title>
+      <title>Home</title>
       <p> Hi my name is </p>
       <h1>Kevin Loun</h1>
       <div class="wrapper">
-        <div class="static-txt">I'm a</div>
+        <div 
+        class="static-txt">I'm a
+        </div>
           <ul class="dynamic-txts">
             <li><span>Student</span></li>
             <li><span>Learner</span></li>
@@ -66,6 +69,7 @@ export default function Home() {
           <h3>My Skills</h3>
           <h2>Skills</h2>
         </div>
+    </div>
     </div>
   )
 }

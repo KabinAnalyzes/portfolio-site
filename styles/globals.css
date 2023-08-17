@@ -34,7 +34,7 @@ body::-webkit-scrollbar {
 .wrapper{
   display: flex;
   position: relative;
-  top: -800px;
+  top: -550px;
   left : 50px;
   font-family: "Roboto", sans-serif;
 }
