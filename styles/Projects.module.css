@@ -31,21 +31,23 @@
 
 
 .project_card {
+  display: inline;
   position: absolute;
   z-index: 2;
-  min-height: 100vh;
+  min-height: 200vh;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
-  max-width: 2000px;
+  max-width: 200vw;
   top:0%;
-  margin-bottom: 0 auto;
+  align-items: center;
 }
 
 .project_card button {
   color: white;
   transition: 0.25s;
 }
+
 
 .project_card button::after{
     position: absolute;
