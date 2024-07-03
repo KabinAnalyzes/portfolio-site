@@ -46,12 +46,12 @@ const project1 = (
           Python | SKLearn
         </Typography>
         <Typography variant="body2">
-          Data Feature Cleaning & Engineering | Model Building
+          Data Cleaning & Feature Engineering | Model Building
           <br />
         </Typography>
       </CardContent>
       <CardActions sx={{ display: 'flex', justifyContent: 'space-between' }}>
-      <Link href="projects/Portfolio"><Button>Learn More</Button></Link>
+      <Link href="projects/Credit"><Button>Learn More</Button></Link>
         <Button>
           <Link href="https://github.com/KabinAnalyzes/GiveMeSomeCredit"target="_blank"> 
           <Badge badgeContent={0} color= "primary">
