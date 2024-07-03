@@ -37,23 +37,23 @@ const project1 = (
     <React.Fragment>
       <CardContent>
         <Typography sx={{ fontSize: 14 }} gutterBottom>
-          August 2023
+          December 2023
         </Typography>
         <Typography variant="h5" component="div">
-          Portfolio Website
+          Give me Some Credit Model Building
         </Typography>
         <Typography sx={{ mb: 1.5 }} >
-          HTML | CSS | NextJs
+          Python | SKLearn
         </Typography>
         <Typography variant="body2">
-          Portfolio Website built using NextJs, HTML, and CSS to showcase my projects and skills
+          Data Feature Cleaning & Engineering | Model Building
           <br />
         </Typography>
       </CardContent>
-      <CardActions sx={{gap:52}}>
+      <CardActions sx={{ display: 'flex', justifyContent: 'space-between' }}>
       <Link href="projects/Portfolio"><Button>Learn More</Button></Link>
         <Button>
-          <Link href="https://github.com/KabinAnalyzes/Personal-Site"target="_blank"> 
+          <Link href="https://github.com/KabinAnalyzes/GiveMeSomeCredit"target="_blank"> 
           <Badge badgeContent={0} color= "primary">
                 Github  <GitHubIcon /> 
           </Badge>
@@ -80,7 +80,7 @@ const project1 = (
           <br />
         </Typography>
       </CardContent>
-      <CardActions sx={{gap:52}}>
+      <CardActions sx={{ display: 'flex', justifyContent: 'space-between' }}>
       <Link href="projects/SCBD"><Button>Learn More</Button></Link>
         <Button>
           <Link href="https://github.com/KabinAnalyzes/Shinjuku-ObjectDetection"target="_blank"> 
@@ -110,7 +110,7 @@ const project1 = (
           <br />
         </Typography>
       </CardContent>
-      <CardActions sx={{gap:52}}>
+      <CardActions sx={{ display: 'flex', justifyContent: 'space-between' }}>
       <Link href="projects/petalplanner"><Button>Learn More</Button></Link>
         <Button>
           <Link href="https://github.com/KabinAnalyzes/PetalPlanner"target="_blank"> 
@@ -141,8 +141,7 @@ const project1 = (
           <br />
         </Typography>
       </CardContent>
-      <CardActions
-      sx={{gap:52}}>
+      <CardActions sx={{ display: 'flex', justifyContent: 'space-between' }}>
       <Link href="projects/SpotifyTop"><Button>Learn More</Button></Link>
         <Button>
           <Link href="https://github.com/KabinAnalyzes/SpotipyV2---Git"target="_blank"> 
@@ -172,7 +171,7 @@ const project1 = (
           <br />
         </Typography>
       </CardContent>
-      <CardActions sx={{gap:52}}>
+      <CardActions sx={{ display: 'flex', justifyContent: 'space-between' }}>
         <Link href="projects/lolreg"><Button>Learn More</Button></Link>
         <Button>
           <Link href="https://github.com/KabinAnalyzes/Machine-Learning-Portfolio/tree/main/LeagueOfLegendsRegression"target="_blank"> 

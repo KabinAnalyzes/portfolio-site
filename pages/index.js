@@ -75,7 +75,7 @@ export default function Home() {
         <div className={styles.education}>
           <h2>Education</h2>
           <h3>Pomona College</h3>
-          <h4>Major: Mathematics and Statistics</h4>
+          <h4>Bachelors of Arts in Mathematics and <br></br>Statistics</h4>
         </div>
     </div>
     </div>
