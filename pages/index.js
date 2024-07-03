@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import student from '@/public/student.png'
-
+import LinearWithValueLabel from '@/components/skills';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -53,21 +53,29 @@ export default function Home() {
         class="static-txt">I'm a
         </div>
           <ul class="dynamic-txts">
-            <li><span>Student</span></li>
-            <li><span>Learner</span></li>
-            <li><span>Developer</span></li>
+            <li><span>Statatician</span></li>
+            <li><span>Mathematician</span></li>
+            <li><span>Life Long Learner</span></li>
           </ul>
         </div>
         <div className={styles.image}>
           <Image src={student} alt="Picture of the author" />
         </div>
-        <div className={styles.description}>
-          <p style={textStyle}>I am a passionate Student who's focused on Machine Learning, Statistics, and Programming.</p>
-          <p style={textStyle}>As I approach my final year of undergraduate studies, I am excited to channel my enthusiasm into real-world applications.</p>
-        </div>
         <div className={styles.skills}>
-          <h3>My Skills</h3>
           <h2>Skills</h2>
+          <h3>
+          Python
+            <LinearWithValueLabel value={80}/>
+          SQL           
+            <LinearWithValueLabel value={60}/>
+          R
+          <LinearWithValueLabel value={50}/>
+          </h3>
+        </div>
+        <div className={styles.education}>
+          <h2>Education</h2>
+          <h3>Pomona College</h3>
+          <h4>Major: Mathematics and Statistics</h4>
         </div>
     </div>
     </div>

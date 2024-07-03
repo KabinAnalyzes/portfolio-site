@@ -4,6 +4,7 @@
 
 body {
     background-color: #ADB5BD;
+    height: 100%;
 }
 
 body::-webkit-scrollbar {
@@ -30,7 +31,7 @@ body::-webkit-scrollbar {
   font-family: "Roboto", sans-serif;
   position: relative;
   top: 110px;
-  right: 28%;
+  right: 38%;
   
   
 }
@@ -49,7 +50,7 @@ body::-webkit-scrollbar {
   line-height: 0px;
   overflow: hidden;
   position: relative;
-  top: -110px;
+  top: -112px;
   right: -125px;
   font-family: "Roboto", sans-serif;
 }

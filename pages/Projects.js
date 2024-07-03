@@ -137,7 +137,7 @@ const project1 = (
             Python | Flask | HTML | CSS
         </Typography>
         <Typography variant="body2">
-            Spotify Top Songs Web Application that allows users and view their top songs over differnt time periods and save them as playlists.
+            Spotify Top Songs Web Application that allows users and view their top songs over different time periods and save them as playlists.
           <br />
         </Typography>
       </CardContent>

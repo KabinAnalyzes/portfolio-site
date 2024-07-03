@@ -31,7 +31,7 @@
   justify-content: center;
   left: 50%;
   align-items: center;
-  min-height: 500vh;
+  min-height: 100vh;
   top: 20%;
 }
 
@@ -45,8 +45,8 @@
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   position: absolute;
-  top: 15px;
-  right: 87.5%;
+  top: -10px;
+  right: 93%;
   min-width: 200px;
   max-height: 40px;
   margin: 0;
@@ -60,8 +60,8 @@
   text-align: left;
   position: absolute;
   max-width: 2000px;
-  top : 1%;
-  right: 68%;
+  top : 4%;
+  right: 71%;
   text-decoration: underline;
   text-decoration-color: rgb(120, 120, 215);
   margin: 0;
@@ -99,13 +99,13 @@
 }
 
 .skills {
-  position: absolute;
-  top: 1200px;
-  right: 100%;
+  position: relative;
+  top: 10px;
+  right: 110%;
   z-index: 2;
   overflow: hidden;
   font-family: "Roboto", sans-serif;
-  padding: 50px;
+  padding: 40px;
   grid-column: 2;
 }
 
@@ -115,11 +115,41 @@
   font-size: 50px;
   font-size: 50px;
   bottom: 20px;
-  right: 1px;
+  right: 5px;
 }
 
 .skills h3 {
   font-size: 20px;
   overflow: hidden;
   bottom : 100px;
+}
+
+.education {
+  position: absolute;
+  top: 340px;
+  right: 10%;
+  z-index: 2;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+  padding: 50px;
+  grid-column: 3;
+}
+
+.education h2 {
+  font-size: 50px;
+  font-size: 50px;
+}
+
+.education h3 {
+  position: inherit;
+  top: 130px;
+  right: 93px;
+  font-size: 25px;
+}
+
+.education h4 {
+  position: inherit;
+  top: 165px;
+  right: 46px;
+  font-size: 15px;
 }
