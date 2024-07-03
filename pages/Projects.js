@@ -25,9 +25,8 @@ const Item = styled(Paper)(({ theme }) => ({
 const bull = (
     <Box
       component="span"
-      sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
+      sx={{ display: 'inline-block', mx: '2px', transform: 'scale(.8s)' }}
     >
-      •
     </Box>
   );
   
@@ -51,7 +50,7 @@ const project1 = (
         </Typography>
       </CardContent>
       <CardActions sx={{ display: 'flex', justifyContent: 'space-between' }}>
-      <Link href="projects/Credit"><Button>Learn More</Button></Link>
+      <Link href="projects/cred"><Button>Learn More</Button></Link>
         <Button>
           <Link href="https://github.com/KabinAnalyzes/GiveMeSomeCredit"target="_blank"> 
           <Badge badgeContent={0} color= "primary">
@@ -187,9 +186,10 @@ const project1 = (
   
 
 export default function BasicGrid() {
+  
   return (
+    <div className='hold'>
     <Box sx={{ flexGrow: 1 }}>
-        
         <div className={styles.project_card}>
         <div className={styles.header}>
             <h2>  Previous Projects </h2>
@@ -199,7 +199,7 @@ export default function BasicGrid() {
       spacing={1}
       alignItems="center"
       justifyContent="center"
-      sx={{ minHeight: '20vh' }}>
+      sx={{ minHeight: '10vh' }}>
         <Grid xs={5}>
             <Card 
             sx={{backgroundColor: "#212529", color: "white", borderRadius: "15px"}}>{project1}</Card>
@@ -223,5 +223,6 @@ export default function BasicGrid() {
       </Grid>
         </div>
     </Box>
+    </div>
   );
 }

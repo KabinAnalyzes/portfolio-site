@@ -1,14 +1,15 @@
 import React from 'react';
+import { Worker, Viewer, WorkerProps } from '@react-pdf-viewer/core';
+import '@react-pdf-viewer/core/lib/styles/index.css';
 
 function PdfViewer() {
+  const pdfUrl = '/public/Credit.pdf'; // Replace with the actual path to your PDF
+
   return (
-    <div style={{ width: '100%', height: '100vh' }}>
-      <iframe
-        src="/path/to/your.pdf"
-        style={{ width: '100%', height: '100%' }}
-        frameBorder="0"
-        title="PDF Viewer"
-      ></iframe>
+    <div style={{ height: '100vh' }}>
+      <Worker workerUrl={`https://unpkg.com/pdfjs-dist@${WorkerProps.workerVersion}/build/pdf.worker.min.js`}>
+        <Viewer fileUrl={pdfUrl} />
+      </Worker>
     </div>
   );
 }

@@ -6,6 +6,28 @@
     margin-top: 75px;
 }
 
+.html, .body, #__next, .container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+}
+
+.body {
+  overflow: hidden;
+  min-height: 100vh;
+}
 
 .card {
     text-align: center;
@@ -34,7 +56,7 @@
   display: inline;
   position: absolute;
   z-index: 2;
-  min-height: 200vh;
+  min-height: 100vh;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
@@ -80,3 +102,6 @@
     color:rgb(190, 190, 249);
   }
 
+.hold {
+  height: 1px;
+}
